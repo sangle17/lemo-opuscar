@@ -125,8 +125,11 @@ Write an original score from the cue map, in the instruments of the style's soun
 
 1. Contact sheets: a frame every 1–2 s with `still.mjs --range`, tiled with `core/render/sheet.py`. At least two full passes.
 2. Frame strips at 0.2 s for every key action: hand-overs, falls, hits.
-3. On the final file: `ffmpeg -af ebur128` (loudness), `blackdetect` (blank frames), whisper again on the final mix if it has voice.
-4. Watch it once, at full speed, with sound.
+3. On the page: `readcheck.mjs` (reading time) and `textcheck.mjs` (contrast, overlapping text, safe area). Look at every block it reports: the contrast is an estimate, and for a large title 3:1 is enough (`--contrast 3`).
+4. On the picture before muxing (`out/video.mp4`; the grain `mux.sh` adds hides frozen frames): `framecheck.py` (stills longer than 1 s, more than 3 s still in any 30 s, black frames). Mark a deliberate freeze with `--allow a:b`.
+5. On the final file: `ffmpeg -af ebur128` (loudness), whisper again on the final mix if it has voice.
+6. **A fresh critic** (DIRECTOR.md §11). Give a reviewer that hasn't seen the build only what a viewer gets: the film, a silent 2 fps contact sheet (`ffmpeg -i film.mp4 -vf fps=2,scale=320:-1 f_%04d.jpg`, then `sheet.py --cols 8`) and the brief, not the treatment or the code. Ask for the sound-off retelling and a ranked problem list with timestamps. After each fix, re-render, run the checks again and have a new critic look; earlier fixes can break. Log each round in `REVIEW.md` in the project folder: the problems, what you changed, the check results before and after.
+7. Watch it once, at full speed, with sound.
 
 ## 9. 3D notes
 
