@@ -21,7 +21,7 @@ Everything else installs in tiers, from the library root (`$LIB` in skill mode).
 | Command | Adds | Size |
 |---|---|---|
 | `sh plugin/skills/lemo-opuscar/scripts/setup.sh deps` | core: npm packages, headless browser, Python `.venv` (numpy, scipy, soundfile, soxr, pillow): render, synthesize sound, mux | ~350 MB |
-| `… setup.sh deps voice` | Kokoro + model (English, offline), edge-tts (Chinese, online), faster-whisper (voice check) | ~0.55 GB + ~145 MB Whisper model on first check |
+| `… setup.sh deps voice` | Kokoro + model (English, offline), edge-tts (Chinese, online), faster-whisper (voice check) | ~0.55 GB + a Whisper model on first check (~145 MB for English, ~480 MB for Chinese) |
 | `… setup.sh deps music` | numba, for plucked strings (`pluck.py`); the sampler itself needs only the core | ~140 MB |
 | `sh tools/fetch.sh instruments <lib>` | a sample library: `freepats`, `karoryfer`, `salamander`, `vcsl`, `vsco2ce` or `all` | 70–400 MB each |
 | `sh tools/fetch.sh hdri` | HDRIs for 3D styles | 12 MB |
@@ -125,11 +125,8 @@ Write an original score from the cue map, in the instruments of the style's soun
 
 1. Contact sheets: a frame every 1–2 s with `still.mjs --range`, tiled with `core/render/sheet.py`. At least two full passes.
 2. Frame strips at 0.2 s for every key action: hand-overs, falls, hits.
-3. On the page: `readcheck.mjs` (reading time) and `textcheck.mjs` (contrast, overlapping text, safe area). Look at every block it reports: the contrast is an estimate, and for a large title 3:1 is enough (`--contrast 3`).
-4. On the picture before muxing (`out/video.mp4`; the grain `mux.sh` adds hides frozen frames): `framecheck.py` (stills longer than 1 s, more than 3 s still in any 30 s, black frames). Mark a deliberate freeze with `--allow a:b`.
-5. On the final file: `ffmpeg -af ebur128` (loudness), whisper again on the final mix if it has voice.
-6. **A fresh critic** (DIRECTOR.md §11). Give a reviewer that hasn't seen the build only what a viewer gets: the film, a silent 2 fps contact sheet (`ffmpeg -i film.mp4 -vf fps=2,scale=320:-1 f_%04d.jpg`, then `sheet.py --cols 8`) and the brief, not the treatment or the code. Ask for the sound-off retelling and a ranked problem list with timestamps. After each fix, re-render, run the checks again and have a new critic look; earlier fixes can break. Log each round in `REVIEW.md` in the project folder: the problems, what you changed, the check results before and after.
-7. Watch it once, at full speed, with sound.
+3. On the final file: `ffmpeg -af ebur128` (loudness), `blackdetect` (blank frames), whisper again on the final mix if it has voice.
+4. Watch it once, at full speed, with sound.
 
 ## 9. 3D notes
 
@@ -162,4 +159,4 @@ Fonts: Google Fonts (OFL), self-hosted in the project. The typefaces a `STYLE.md
 | 3D with depth of field and real materials | `styles/brick-toy/`, `styles/paper-popup/` |
 | a CRT or VHS look | `core/post/crt.js`, `styles/ascii-crt/`, `styles/backrooms/` |
 
-Each style's `DEMO.md` says how its demo was built. Open it and the code only after your treatment exists, to learn a technique, never to rebuild our film. In skill mode, get the source with `sh <skill folder>/scripts/setup.sh demo <slug>`. Copied demo code often reaches the library with `../..`: replace that with `$LIB` or absolute URLs.
+Each style's `DEMO.md` says how its demo was built. Open it and the code only after your treatment exists, to learn a technique, never to rebuild our film (an Edit & Documentary style's material tools in `demo/tools/` come first: AGENTS.md, "Treatment first"). In skill mode, get the source with `sh <skill folder>/scripts/setup.sh demo <slug>`. Copied demo code often reaches the library with `../..`: replace that with `$LIB` or absolute URLs.

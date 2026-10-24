@@ -35,19 +35,13 @@ The viewport is 1920×1080 at device scale 1, or `--size WxH`. `--q 'k=v&…'` r
 | `node core/render/video.mjs <demo> [--fps 24] [--workers 3] [--out <demo>/out/video.mp4]` | every frame to a video; up to 6 workers for a single render. Each parallel version needs its own `--out` |
 | `node core/render/events.mjs <demo> [--out <file>]` | export `{dur, ev}` to `<demo>/events.json` |
 | `node core/render/readcheck.mjs <demo> [--step 0.04] [--latin-cps 15] [--cjk-cps 4.5] [--pad 1.5] [--min 1.5]` | reading-time check (below) |
-| `node core/render/textcheck.mjs <demo> [--step 0.25] [--contrast 4.5] [--safe 0.05,0.05,0.05,0.05]` | text contrast, overlapping text, safe area (below) |
-| `.venv/bin/python core/render/framecheck.py video.mp4 [--max 1.0] [--per30 3.0] [--min 0.2] [--allow a:b …]` | frozen and black frames (below) |
 | `.venv/bin/python core/render/sheet.py out.jpg img… [--cols 4] [--w 480]` | contact sheet |
 | `.venv/bin/python core/render/srt.py cues.json out.srt` | subtitles from `[{t0, t1, text}]` |
 | `sh core/render/mux.sh video.mp4 mix.wav out.mp4 [fps=24] [grain=2]` | mux and master (below) |
 
-All five page tools take `--size WxH` (default `1920x1080`, even numbers) and `--q 'k=v'`.
+All four page tools take `--size WxH` (default `1920x1080`, even numbers) and `--q 'k=v'`.
 
 **readcheck** asks the page for `window.TEXTS(t)` at every step. Each text must stay fully in frame, unchanged, for at least CJK characters ÷ 4.5 + other non-space characters ÷ 15 + 1.5 s, and never less than `--min`. A new `text` under the same `id` starts a new piece. Subtitles are checked by their `.srt`, not here.
-
-**textcheck** uses the same `window.TEXTS(t)`. At every step it crops each text box and splits its pixels into ink and ground by brightness: the WCAG contrast of the two (the median over the piece's time on screen, so fades don't count) must reach `--contrast`. A box on a busy picture with no plate splits badly and is reported too. No two different texts may overlap, and every box stays inside the safe area, `--safe` left,top,right,bottom as fractions of the frame (for a vertical platform cut, try `0.06,0.12,0.16,0.22`). Subtitles are not reported.
-
-**framecheck** reads a rendered video with ffmpeg (`freezedetect`, `blackdetect`). Run it on the picture before `mux.sh`, whose grain makes every frame differ. It reports any still longer than `--max` s, more than `--per30` s of stills (each at least `--min` s) in any 30 s, and every black frame, the first one included. `--allow a:b` (seconds, repeatable) excuses a deliberate freeze or black.
 
 **mux** runs a two-pass `loudnorm` to −14 LUFS / true peak −1.2 dB, adds film grain (`grain` 0 = none) and prints the measured loudness. Silent audio is left at its level with a warning; short audio is padded, long audio cut at the picture's end; missing, damaged or truncated audio is refused. It never leaves a partial file.
 
@@ -80,7 +74,7 @@ All five page tools take `--size WxH` (default `1920x1080`, even numbers) and `-
 | `LEMO_ANGLE` | WebGL backend (default `metal` on macOS; `default` passes none) |
 | `RENDER_SLOTS` | optional; limits concurrent full renders across processes |
 | `LEMO_COLOR=bt709` | `mux.sh` writes limited-range BT.709 instead of the default full-range output |
-| `WHISPER_MODEL` | Whisper model name or local folder for `asr_check.py` (same as `--model`; default `base.en` for English, `base` otherwise; `small` is more accurate for Chinese) |
+| `WHISPER_MODEL` | Whisper model name or local folder for `asr_check.py` (same as `--model`; default `base.en` for English, `small` for Chinese, `base` otherwise) |
 | `HF_ENDPOINT` | Hugging Face mirror for the Whisper download |
 
 ## Exit codes
@@ -89,8 +83,6 @@ All five page tools take `--size WxH` (default `1920x1080`, even numbers) and `-
 |---|---|---|---|
 | render tools | done | page error, missing required file, ffmpeg failure | usage, no `index.html`, `--out` already being written |
 | `readcheck.mjs` | all texts long enough | some too short or never fully visible | could not check (no `TEXTS`) |
-| `textcheck.mjs` | all texts pass | low contrast, overlap or outside the safe area | could not check (no `TEXTS`) |
-| `framecheck.py` | no long stills, no black | some found | usage, unreadable video |
 | `mux.sh` | film written | any failure | – |
 | `tts.py`, `srt.py` | done | bad input, missing model, path too long | usage |
 | `tts_zh.py` | done | bad input | network unreachable |
