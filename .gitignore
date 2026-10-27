@@ -84,7 +84,8 @@ styles/*/demo/stills/*
 !styles/news-package/demo/assets/plates/*.jpg
 
 # 用户自己的片子（agent 输出）
-/films/
+/films/*
+!/films/*.md
 
 
 # Production logs are internal: they stay local
@@ -136,3 +137,5 @@ styles/*/demo/**/*_try.py
 # Superseded first-round review frames; only those a doc or CREDITS names are re-included
 styles/*/demo/stills/*_v1*
 !styles/art-deco/demo/stills/kit_v2.jpg
+.gstack/
+/CLAUDE.local.md
