@@ -14,6 +14,14 @@ Make a long film only if all three are true:
 2. **The chapters are linked by cause, not by topic.** Each chapter's ending raises the next chapter's question ("…and in Africa, a storm was coming"). If you could shuffle the chapters, there's no spine.
 3. **There are at least 8 wow facts** (CHANNEL-RULES §2 wow test), about one every 90 seconds. Fewer means the film will feel like a lecture.
 
+**Picking the topic (learned from "How Mexico lost half its land in 30 years", 2026-10-28/29).** These helped; they are pluses, not requirements:
+- **Something to show**: a map that changes (land changing hands, a route) or strong real pictures and scenes. The map is one tool among several, not a must.
+- **A title that is a question with a number**, searchable, never the answer ("How Mexico Lost Half Its Land in 30 Years").
+- **A hook the audience lives in**: today's places (Los Angeles, Las Vegas, Phoenix) on land the story is about.
+- **Named people and real pictures**: a cast of 5–10 people with real portraits and period prints of the key moments (LoC "No known restrictions", NARA "Unrestricted", Smithsonian CC0). Check this in the material scout before scripting; a topic with no real pictures leans entirely on drawn scenes.
+- **A twist at about 60 %** (here: the gold found nine days before the treaty) and a refrain the ending can pay off ("on paper").
+- **Several Shorts inside it** that stand alone (each with its own hook), noted in the hook bank.
+
 **Raw material needed:** about 4–6 book pages on related subjects, plus research. A page gives about 15–25 usable facts; a 15-minute film uses 60–80. The facts that **connect** the pages are rarely in the book: they come from research (in *The Promise*: Banneker's letter, Liberia's founding, King in Ghana, Du Bois's death). Budget for that.
 
 ## 2. The order of work (cheapest first, with stop points)
@@ -39,7 +47,7 @@ Make a long film only if all three are true:
 | Time | Part | Job |
 |---|---|---|
 | 0:00–0:25 | **Hook** | The contradiction or question in the first 10 s, over a moving image of the subject. Same rules as a Short's first frame. |
-| 0:25–0:55 | **Pre-hook (the promise)** | "By the end, you'll know X, Y and Z." Three concrete payoffs, each one a wow fact. These are the open loops. |
+| 0:25–0:55 | **Pre-hook (the promise)** | The spine question, then three teasers phrased so they don't give their outcome away ("why Mexico invited thousands of Americans in, on purpose"). These are the open loops. **Never summarise the answer here** (see §4c). |
 | 0:55–~8:00 | **Chapters 1–3** | Setup and scale, then the story builds. Each chapter is 1:45–2:30. |
 | ~8:00–9:30 | **Midpoint twist** | At 55–65% of the film, the story turns ("So Liberia is the hero. Right? Not quite."). This is where long videos lose people, so the strongest surprise goes here. |
 | ~9:30–14:00 | **Chapters 4–6** | The deeper "why", the human moments, the open loops paying off one by one. |
@@ -72,7 +80,7 @@ User feedback on the first Everest and Caspian scripts: "lack of coherence… th
 
 **Pass 1, the argument (essay craft).**
 - **One thesis, in one plain sentence,** that answers the spine question. The viewer should be able to repeat it to a friend after watching. Everything in the film either supports it, explains it or tests it. A fact that does neither goes to a Short, however good it is (Mayer's *coherence principle*: people learn more when extra material is left out).
-- **Answer first (Minto's SCQA):** Situation (what everyone knows) → Complication (the surprising problem) → Question (the spine) → Answer (the thesis), all in the first minute, then the film earns it. The hook still comes first; the thesis follows within ~60 s.
+- **Question first, answer later (user, 2026-10-28):** Situation (what everyone knows) → Complication (the surprising problem) → Question (the spine), all in the first minute; **the answer (the thesis) is not said there.** An opening that summarised the whole answer ("a frontier it couldn't fill… a revolt, a war and a sale", *How Mexico lost half its land*, v2) gave viewers no reason to stay. The thesis is built up chapter by chapter, said for the first time near the midpoint, and in full at the end. (This replaces the earlier "answer first, Minto's SCQA" advice.)
 - **Two to four parts,** each one reason for the thesis. Say the map once at the start in words, not numbers ("its name, its height, and who got there first"); this is Ausubel's *advance organizer*: the big picture first, so every later detail has a place to go.
 - **Each chapter is an essay paragraph (PEEL):** **Point** (the opening line states this chapter's claim, in plain words) → **Evidence** (the story, the people, the facts) → **Explain** (what it means: "In other words…", "So what does that tell us?") → **Link** (back to the thesis, then into the next part). The *Explain* step is the one the first scripts skipped; it is where the teaching happens, and it's usually the longest.
 - **Known → new:** each chapter opens from something the viewer already has ("So that's the name. But how did they know it was the highest?"), then adds one new thing.
@@ -88,7 +96,7 @@ User feedback on the first Everest and Caspian scripts: "lack of coherence… th
 
 **Pass 3, the speech (public speaking craft).**
 - **Conversational, not formal** (Mayer's *personalization principle*: people learn more from conversational narration): "you", "we", "I think"; contractions; questions to the viewer with a beat after them.
-- **Listeners can't rewind:** repeat the thesis at the start, at the midpoint and at the end, and give the film a **refrain**, one short phrase that returns three times ("a mountain that won't hold still"; "one word").
+- **Listeners can't rewind:** repeat the spine question at the start, and the thesis at the midpoint and at the end (never as a summary in the opening), and give the film a **refrain**, one short phrase that returns three times ("a mountain that won't hold still"; "one word").
 - **Rhythm:** groups of three; short sentences with a longer one now and then; no list longer than three items.
 - **Signpost in words, never in numbers** (§4b still applies: no "first reason / second reason"): "So that's the name. Now the harder question…", "Here's where it gets strange."
 - **The ending is a summary a teacher would give:** the question again, the answer in one sentence with its reasons, then an opinion, then the comment prompt.
@@ -133,7 +141,7 @@ User feedback on the first scripts: "you split the resource too small. Two sente
 ## 6. Retention devices (glossary)
 
 - **Hook:** a concrete contradiction or question in the first 10 s.
-- **Pre-hook / promise:** three specific payoffs promised in the first minute.
+- **Pre-hook / promise:** the spine question plus three teasers in the first minute, none of them giving its answer away.
 - **Open loop:** a question raised now and answered later. Keep 1–3 open at any time, carried by the voice and the pictures.
 - **Re-hook:** the first line of each chapter, with a fresh concrete detail.
 - **Forward question:** the last line of each chapter, pulling into the next.

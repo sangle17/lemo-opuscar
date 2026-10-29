@@ -15,6 +15,8 @@ Every Short has a hook, real value (the viewer learns something true and worth k
 
 Pick the one that suits the material; say which and why when showing the script. Mixing is fine.
 
+- **A guess beat fits any shape** (research, 2026-10-27): one spoken line inviting a guess and a short pause over a moving picture, pointed at the fact you most want remembered. Guessing before an answer makes it stick (prequestion meta-analysis); it doesn't turn a film into a quiz. How to direct this and the rest: [`DIRECTING-PLAYBOOK.md`](DIRECTING-PLAYBOOK.md).
+
 - **Topic: anything in the book**: countries, continents, animals, aircraft, science, history. Never steer the user toward fewer topics.
 - **Source: the user's encyclopedia page.** Facts are free to use; the book's sentences and pictures are not. Retell in our own words; drawn visuals or open-licence material.
 
@@ -62,6 +64,8 @@ A film usually covers 2–3 book pages, so it can give **2–3 Shorts**, one per
 - One fact per sentence, about 12 words at most. Enthusiastic, informal delivery.
 - **Talk like a person.** Never number points in the voice or on screen ("Clue one…", "CLUE III"). Read every line aloud: if you wouldn't say it to a friend, rewrite it. (User feedback, 2026-10-23.)
 - **Pauses are part of the script (user feedback, 2026-10-23: "pausing is an art").** Lines back to back sound like a non-stop read. Mark pauses: 0.2–0.3 s between sentences, 0.5–0.7 s between beats, 0.7–1.0 s after a surprising number or the hook. Pauses are silent in the voice, never frozen on screen: the picture keeps moving, the music carries the gap. Trim words to fit, never the pauses.
+- **Things happening, not a list.** Build the script as a chain of actions (someone decides, sails, signs, flies…) and place the key number or the reveal at a turn, where an action changes (event-boundary research).
+- **Every fact serves the film's one question.** Interesting but off-topic details lower what viewers take away; cut the good tangent and keep it for another film.
 - Make every number tangible with a comparison.
 - No filler: "interestingly", "fun fact", "in this video", "let's dive in".
 - Captions go in the `.srt`; on-screen text only where the style itself would use it.
@@ -116,7 +120,9 @@ A film usually covers 2–3 book pages, so it can give **2–3 Shorts**, one per
 7. **Title test:** concrete, under the length limit, no answer, no art-technique words.
 8. **Ending test:** the last beat ties the fun fact back to the subject (a loop is optional).
 9. **Variety test:** the hook and the style differ from the last few films.
-10. **No clipped text:** extract a full-size frame at the midpoint of every subtitle cue and every piece of text the style itself draws; every line wraps inside its box, ≥ 60 px from the frame edges. The library's text check doesn't catch text overflowing its box (missed in the Antarctica remake, 2026-10-23).
+10. **Relevance test:** every fact in the script serves the film's one question; name what was cut.
+11. **Sound test:** the score is chosen per scene for the feeling it needs and sits under the voice; every sound effect is tied to something visible.
+12. **No clipped text:** extract a full-size frame at the midpoint of every subtitle cue and every piece of text the style itself draws; every line wraps inside its box, ≥ 60 px from the frame edges. The library's text check doesn't catch text overflowing its box (missed in the Antarctica remake, 2026-10-23).
 
 Then the library's own checks (DIRECTOR.md §11).
 
@@ -125,12 +131,14 @@ Then the library's own checks (DIRECTOR.md §11).
 - **Short:** Studio → "Viewed vs. swiped away". About 70%+ is good. Low = the hook or first frame failed. Good but views stall = the middle drags (check the retention graph).
 - **Landscape:** Studio → Reach. Impressions under about 100 = YouTube barely showed it (new channel, give it time). Impressions fine but click-through under about 2–3% = title or thumbnail.
 - **Facebook:** 3-second views and average watch time.
+- **One test variable per film** (e.g. guess beat or none, awe hook or number hook), written in the film's `YOUTUBE.md` before publishing, with the results after about 48 h next to it. Change one thing at a time (DIRECTING-PLAYBOOK §6).
 - After about 10 films in this format, compare retention graphs and adjust the timings in §3–4 to what this channel's viewers do.
 
 ## Evidence behind these rules
 
-- **Strong:** hook in the first 1–3 s (YouTube's own "viewed vs. swiped away" metric; consistent retention data); guessing before the answer improves memory of it (pretesting-effect research); shorter, enthusiastic videos hold people longer (Guo, Kim & Rubin 2014, 6.9M edX sessions); landscape early drop-off comes from openings that don't match the title.
-- **Moderate:** question headlines get more clicks, but too-vague ones lose them (headline experiments, 2025 meta-analysis of ~9,000 tests); 50–60 s Shorts win only with high view duration (Galloway, 5,400 Shorts, 2023); captions +12% view time (Facebook test, secondary sources); every Shorts replay counts as a public view since 2025-03-31 (earnings use engaged views); YouTube's "inauthentic content" and Meta's unoriginal/duplicate rules (2025).
+- **Strong:** hook in the first 1–3 s (YouTube's own "viewed vs. swiped away" metric; consistent retention data); guessing before the answer improves memory of that answer, most when people actually guess (preregistered meta-analysis, St. Hilaire et al. 2024: g = 0.65 with a guess, 0.22 without; no benefit to the rest of the material); shorter videos hold people longer and faster speakers did too, read by the authors as enthusiasm but not tested (Guo, Kim & Rubin 2014, 6.9M edX sessions; their "edit out pauses" was edX producers' habit, not a finding); landscape early drop-off comes from openings that don't match the title; stories beat plain exposition for understanding (meta-analysis, 33,000 people); off-topic "seductive details" lower learning (two meta-analyses); guiding the eye helps (103 studies). Full research: `films/research/directing/`, summed up in `DIRECTING-PLAYBOOK.md` (2026-10-27).
+- **Moderate:** question headlines get more clicks, but too-vague ones lose them (headline experiments, 2025 meta-analysis of ~9,000 tests); 50–60 s Shorts win only with high view duration (Galloway, 5,400 Shorts, 2023); captions +12% view time (Facebook test, secondary sources); every Shorts replay counts as a public view since 2025-03-31 (earnings use engaged views); YouTube's "inauthentic content" and Meta's unoriginal/duplicate rules (2025); music changes how viewers read the same images, and music beds lower learning while sounds tied to events don't (lab studies of learning, not watch time); sad headline words raise clicks and fear words lower them (22,743 news-headline tests, Robertson 2023).
+- **No evidence either way (2026-10-27 research):** US vs European taste in tone, humour or pacing; what makes educational Shorts get finished or rewatched; the right gap between question and answer. Our own analytics decide these (§12).
 - **Practitioner advice / judgment:** re-hook at ~20 s, a visual change every 2–3 s, the answer at ~60% of the landscape cut, posting times, thumbnail word count.
 - **This channel's own data (2026-10-21/22):** "By 1914, only 2 African countries were still free…" 366 views; statement or vague hooks 14–90; dense opening frames under 20.
 - **First films made under these rules (2026-10-23, under a day old):** YouTube Shorts Caspian 698, Everest 443, two wars 210 views, against 1–90 for every earlier Short but one. Facebook: Caspian (alone, 23:10) 182 views; two wars and Everest posted as Reels in the same minute (08:00) got 34 and 1. Two Reels at once on one Page: the second gets almost nothing, so space them.
