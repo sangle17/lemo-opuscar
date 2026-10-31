@@ -1,6 +1,6 @@
 # Channel rules: how every film for the channel is made
 
-The user's YouTube channel and Facebook Page turn encyclopedia pages into short films for a US/EU audience, in English. These rules sit on top of `AGENTS.md`, `DIRECTOR.md` and the chosen `STYLE.md`: the style decides the look, these rules decide the hook, the structure, the titles and the thumbnail. Agreed with the user on 2026-10-22, built on research (evidence levels at the end).
+The user's YouTube channel and Facebook Page turn encyclopedia pages into short films for a US/EU audience, in English. These rules sit on top of `AGENTS.md`, `DIRECTOR.md` and the chosen `STYLE.md`: the style decides the look, these rules decide the hook, the structure, the titles and the thumbnail. Agreed with the user on 2026-10-22, built on research (evidence levels at the end). New channel lessons go into this file (or `DIRECTING-PLAYBOOK.md`), not into an agent's private memory, so every tool and session can reuse them (user, 2026-10-31).
 
 ## 1. Choosing the shape: options, not a fixed formula
 
@@ -18,6 +18,15 @@ Pick the one that suits the material; say which and why when showing the script.
 - **A guess beat fits any shape** (research, 2026-10-27): one spoken line inviting a guess and a short pause over a moving picture, pointed at the fact you most want remembered. Guessing before an answer makes it stick (prequestion meta-analysis); it doesn't turn a film into a quiz. How to direct this and the rest: [`DIRECTING-PLAYBOOK.md`](DIRECTING-PLAYBOOK.md).
 
 - **Topic: anything in the book**: countries, continents, animals, aircraft, science, history. Never steer the user toward fewer topics.
+- **Story first, page second** (user, 2026-10-31: "most of our video didn't go that way"). Start from a story a stranger would want to hear, then use the page as its anchor and fact source; never list the page's facts and hunt for a hook. Off-page stories about a page keyword are fine. Every candidate passes two questions:
+  1. **Anchor:** would a US/EU viewer recognise what it's about in one second? A famous name (Korea, WWII, Everest) or an everyday human thing (a hug, underwear, a shoe, a heart kept in a desk) both work.
+  2. **"Wait, what?":** would they need to know what happened? The strongest have a person or two sides, an action that sounds impossible, and one open question. Models: the North/South Korea flagpole contest, Hiroo Onoda fighting on in the Philippines until 1974, the Hasanlu "lovers" who turned out to be two men. Our own best Shorts (Caspian, Everest, Africa 1914) were famous subjects with a surprising fact; the weak ones were page facts about subjects viewers didn't know.
+- **Demand check before writing** (2026-10-31). Look for proof that people already want the story, not for search keywords: Shorts get almost no views from search (the Korea flagpole Short: 5.7% of views from YouTube search, "flag pole" about 12 of 1,265 views; the rest from the Shorts feed). Check, and note what you found in the film's `TREATMENT.md`:
+  1. **Proven elsewhere:** Shorts or Reels on the same story that got far more views than their channel's usual. One outlier on a small channel is strong evidence; many big channels already on it means a crowded topic, so find a fresher angle.
+  2. **Curiosity:** YouTube autocomplete and Google Trends show whether people wonder about the subject at all. Use the wording people type for the title.
+  3. **Landscape films only:** here search does matter (they live for months), so the searchable keyword goes first in the title (§6).
+
+  A story with no sign of demand isn't banned, but it needs a strong "wait, what?" (above) to make up for it.
 - **Source: the user's encyclopedia page.** Facts are free to use; the book's sentences and pictures are not. Retell in our own words; drawn visuals or open-licence material.
 
 ## 2. Short (vertical, 45–55 s, about 120–140 spoken words)
@@ -26,6 +35,7 @@ Pick the one that suits the material; say which and why when showing the script.
 - One opinion line in the narrator's voice; a loop into the first line only if it comes naturally.
 - **Content decides length, never padding.** Thin topic → a tight 30–40 s Short.
 - **The look belongs to the style.** `STYLE.md` and the style's demo set the bar for everything visual: composition, characters, motion, camera, type and how much text is on screen. These rules never add title cards, big captions, stamps or labels on top of it (user, 2026-10-24: the channel rules had turned every style into text on flat cards). Build real scenes with the style's own techniques, at the quality of its demo film.
+- **Real evidence first, drawing for what a still can't tell** (user, 2026-10-31). Show the real thing whenever a commercially usable one exists: a photo of the actual object or place, the document, the source, a demonstration. Draw and animate only what no single picture shows: a chain of actions, an emotion, a process. Real images sit inside the style's look, never as cards on top.
 - **Use the style's own engine.** Copy the demo's renderer (print shader, stroke engine, brush engine) into the project and draw with it. Never swap it for a quicker stack (plain SVG, Remotion shapes, flat fills with a texture on top): the Tierra del Fuego "watercolour" and the Argentina Risograph cuts (2026-10-24) became flat vector that way.
 - **Compose for the vertical frame.** Stage each shot again for 9:16 and fill the frame with the scene; never a small subject in the top half over empty ground.
 - Only two platform constraints: keep the bottom ~15% free of important detail (Shorts UI), and deliver captions as an `.srt` file.
@@ -65,6 +75,7 @@ A film usually covers 2–3 book pages, so it can give **2–3 Shorts**, one per
 - **Talk like a person.** Never number points in the voice or on screen ("Clue one…", "CLUE III"). Read every line aloud: if you wouldn't say it to a friend, rewrite it. (User feedback, 2026-10-23.)
 - **Pauses are part of the script (user feedback, 2026-10-23: "pausing is an art").** Lines back to back sound like a non-stop read. Mark pauses: 0.2–0.3 s between sentences, 0.5–0.7 s between beats, 0.7–1.0 s after a surprising number or the hook. Pauses are silent in the voice, never frozen on screen: the picture keeps moving, the music carries the gap. Trim words to fit, never the pauses.
 - **Things happening, not a list.** Build the script as a chain of actions (someone decides, sails, signs, flies…) and place the key number or the reveal at a turn, where an action changes (event-boundary research).
+- **After the hook, move forward, never back.** The second beat must advance what the hook promised; slip background in inside the action ("When the South's pole hit 100 m in 1982…"), never as a history step back. Evidence: the Korea flagpole Short (YouTube, 2026-10-31) kept 68.7% past the swipe and then lost about 40% of viewers between 0:05 and 0:12, exactly over a rhetorical question ("Why would two countries care…?") and "In 1953, the fighting stops at a line." From 0:12 the curve stayed almost flat to the end.
 - **Every fact serves the film's one question.** Interesting but off-topic details lower what viewers take away; cut the good tangent and keep it for another film.
 - Make every number tangible with a comparison.
 - No filler: "interestingly", "fun fact", "in this video", "let's dive in".
@@ -93,11 +104,13 @@ A film usually covers 2–3 book pages, so it can give **2–3 Shorts**, one per
 
 - **One cut per film per Page: the Short as a Reel.** Never also the landscape cut (Meta reduces reach for duplicates; it split views on 2026-10-21).
 - Caption, hand-written: line 1 the hook, line 2 one line of the main point, line 3 an easy comment prompt (an opinion or "Had you heard this?"). No chapters, no #shorts.
+- **Photo posts** (model: The Historian's Den, studied 2026-10-31; our Reels keep their own format). One real image of the person or object, big, with a small round inset of the strange detail. On the image, a 2–4 line story in plain words that already holds the twist, the key words in a highlight colour. The post text: line 1 a feeling ("It doesn't get much spookier than this."), then the full story in 150–250 words of short paragraphs, ending on an open question or "historians still debate…", then 1–2 hashtags. Images commercially usable only; facts in `FACTS.md` like any film.
 
 ## 9. Posting
 
 - **YouTube: up to 2–3 Shorts a day**, at least 4–6 h apart, never two in the same hour. No penalty for frequency is documented and each Short is tested on its own, but keep the pace you can sustain every day: consistency matters more than bursts.
 - **Facebook: 1 Reel a day, never two in the same hour.** Page reach is shared across posts: five Reels in 14 h on 2026-10-21 left the last one at reach 1, and two Reels at the same minute on 2026-10-23 gave the second 1 view.
+- **Facebook Reel time: 23:00 or 01:00 Vietnam time** (user, 2026-10-31). That is midday to early afternoon in the US and the evening in Europe, and the Korea Reel (23:22, 20,000+ views) and the Caspian Reel (23:10, 182 when alone) both went out then. Photo posts (§8) go at least 6 h away from the Reel.
 - Shorts from the same film go out on different days or far apart, not back to back.
 - US evening ≈ 07:00–10:00 Vietnam time; Europe evening ≈ 00:00–03:00. Prefer the Page's own Insights once it has data.
 - In each Short, set "Related video" to its landscape version.
@@ -129,6 +142,7 @@ Then the library's own checks (DIRECTOR.md §11).
 ## 12. Reading the results
 
 - **Short:** Studio → "Viewed vs. swiped away". About 70%+ is good. Low = the hook or first frame failed. Good but views stall = the middle drags (check the retention graph).
+- **Don't judge a Short on its first day.** YouTube tests it on a small audience first and widens in waves: the Korea Short only started growing after about 15 h (2026-10-31). Early, read viewed vs. swiped away and the retention curve (flat or rising at the end = good), not views. Call it at about 48 h; a miss only if it's still flat after about 3 days *and* the swipe rate is bad; good swipe rate but few views = not pushed yet, give it a week. The Analytics API gives views, average view duration and percentage viewed, but not viewed vs. swiped away: check that in Studio.
 - **Landscape:** Studio → Reach. Impressions under about 100 = YouTube barely showed it (new channel, give it time). Impressions fine but click-through under about 2–3% = title or thumbnail.
 - **Facebook:** 3-second views and average watch time.
 - **One test variable per film** (e.g. guess beat or none, awe hook or number hook), written in the film's `YOUTUBE.md` before publishing, with the results after about 48 h next to it. Change one thing at a time (DIRECTING-PLAYBOOK §6).
