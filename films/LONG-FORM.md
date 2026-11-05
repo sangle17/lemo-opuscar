@@ -59,8 +59,8 @@ Make a long film only if all three are true:
 
 ## 4. Word budget
 
-- The old narrator (Kokoro `af_heart`) read about **145 words a minute** in long films, including short holds. The narrator since 2026-11-03, `am_fenrir` (CHANNEL-RULES §5), is faster: about 188 wpm on a Short script before holds. Measure the first long-film chapter in Fenrir and update these numbers.
-- 12 min ≈ 1,700 words · 15 min ≈ 2,100 · 20 min ≈ 2,800.
+- The old narrator (Kokoro `af_heart`) read about **145 words a minute** in long films, including short holds. The narrator since 2026-11-03, `am_fenrir` (CHANNEL-RULES §5), is faster; since 2026-11-05 it runs at speed 1.25, **about 200 wpm overall** including holds (CHANNEL-RULES §5). Measure the first long-film chapter at 1.25 and update these numbers.
+- 12 min ≈ 2,400 words · 15 min ≈ 3,000 · 20 min ≈ 4,000.
 - Per chapter: about 250–350 words. The hook plus pre-hook is about 100.
 - **Detail is the value; never trim to hit a length** (user, 2026-10-31: "go as detailed as possible, it brings more value for viewers"). More names, numbers and moments make a long film richer, as long as each one is told as something happening, with a joke or surprise where the facts allow: "not a boring history class". The point of view runs through every chapter in the narrator's dry asides (CHANNEL-RULES §5), not as one marked opinion line.
 - **If the script comes out short, add a chapter where the story has a real gap**, never pad. In *The Promise* the gap was 1865–1954, when freedom came and was taken back. "Content decides length" (CHANNEL-RULES §2) holds for long films too.
