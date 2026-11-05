@@ -62,7 +62,7 @@ Make a long film only if all three are true:
 - The old narrator (Kokoro `af_heart`) read about **145 words a minute** in long films, including short holds. The narrator since 2026-11-03, `am_fenrir` (CHANNEL-RULES §5), is faster: about 188 wpm on a Short script before holds. Measure the first long-film chapter in Fenrir and update these numbers.
 - 12 min ≈ 1,700 words · 15 min ≈ 2,100 · 20 min ≈ 2,800.
 - Per chapter: about 250–350 words. The hook plus pre-hook is about 100.
-- **Detail is the value; never trim to hit a length** (user, 2026-10-31: "go as detailed as possible, it brings more value for viewers"). More names, numbers and moments make a long film richer, as long as each one is told as something happening, with a joke or surprise where the facts allow: "not a boring history class". Give every chapter one clearly marked POV line.
+- **Detail is the value; never trim to hit a length** (user, 2026-10-31: "go as detailed as possible, it brings more value for viewers"). More names, numbers and moments make a long film richer, as long as each one is told as something happening, with a joke or surprise where the facts allow: "not a boring history class". The point of view runs through every chapter in the narrator's dry asides (CHANNEL-RULES §5), not as one marked opinion line.
 - **If the script comes out short, add a chapter where the story has a real gap**, never pad. In *The Promise* the gap was 1865–1954, when freedom came and was taken back. "Content decides length" (CHANNEL-RULES §2) holds for long films too.
 
 ## 4b. Write for the ear, not the page
@@ -70,7 +70,7 @@ Make a long film only if all three are true:
 The narration is heard, not read. Write it the way a native English speaker would tell the story to a friend (CHANNEL-RULES §5; user feedback, 2026-10-23: "use the speaking language, not the reading").
 
 - **No numbered signposts in the voice:** never "Clue one", "Fact number three", "Chapter two: …", "Firstly / Secondly", "In this section we will…". Chapter titles live in the description (and on screen only where the style draws titles); the voice moves on naturally: "Here's the thing.", "Now it gets weird.", "So what happened next?", "But here's what nobody tells you.", "Fast-forward forty years."
-- **Spoken grammar:** contractions (it's, didn't, they'd); short sentences; questions to the viewer; "you" and "we". No textbook connectors ("furthermore", "moreover", "thus", "in addition", "it is worth noting", "notably").
+- **Spoken grammar:** contractions (it's, didn't, they'd); sentences that run on as a chain of reasons, linked with so / because / which / and so (CHANNEL-RULES §5: about 15–25 words while the thought continues, a short one for the punch); questions to the viewer; "you" and "we". No textbook connectors ("furthermore", "moreover", "thus", "in addition", "it is worth noting", "notably").
 - **Numbers as people say them:** "about four thousand", "nearly half", "twice the size of Texas", not "approximately 4,012" or "47.3%". Exact figures go in `FACTS.md` and the description; on screen only in the style's own form (a measured note, a dial, a chart the style draws).
 - **No dates stacked in a row:** one date per sentence at most, and lead with the event, not the date ("Ten years later, the money ran out", not "In 1857, following the 1847 declaration, …").
 - **Names once, then a handle:** "Benjamin Banneker, a self-taught astronomer" the first time, then "Banneker" or "he".
@@ -100,9 +100,9 @@ User feedback on the first Everest and Caspian scripts: "lack of coherence… th
 **Pass 3, the speech (public speaking craft).**
 - **Conversational, not formal** (Mayer's *personalization principle*: people learn more from conversational narration): "you", "we", "I think"; contractions; questions to the viewer with a beat after them.
 - **Listeners can't rewind:** repeat the spine question at the start, and the thesis at the midpoint and at the end (never as a summary in the opening), and give the film a **refrain**, one short phrase that returns three times ("a mountain that won't hold still"; "one word").
-- **Rhythm:** groups of three; short sentences with a longer one now and then; no list longer than three items.
+- **Rhythm:** groups of three; flowing sentences, with a short one for the punch; no list longer than three items.
 - **Signpost in words, never in numbers** (§4b still applies: no "first reason / second reason"): "So that's the name. Now the harder question…", "Here's where it gets strange."
-- **The ending lands in a few lines, never a recap:** the question again, the answer in one sentence, an opinion, then the comment prompt, all inside the last chapter. Never retell the chapters in order: the film has already answered the question (user, 2026-11-01, Greenland's cut chapter 8).
+- **The ending lands in a few lines, never a recap:** the question again, the answer in one sentence, a closing aside in the narrator's own attitude (never the "Honestly? …" formula), then a comment prompt only if the story leaves a real open question, all inside the last chapter. Never retell the chapters in order: the film has already answered the question (user, 2026-11-01, Greenland's cut chapter 8).
 
 ## 4d. Every chapter has a purpose, and hands the film on (user, 2026-11-01)
 
@@ -118,6 +118,7 @@ User notes on the Greenland film's chapters 1–2: "Every chapter has to have [a
 - **A point-of-view joke must be clear on first hearing.** "And the reviews are terrible" (of Erik's "listing") didn't land; say the joke's logic plainly ("Great name. Shame about the ice.").
 - **Show, don't only write it:** a key fact needs something happening on screen (ships, people, a change on the map), not only words over a still map.
 - **Short, busy scenes in a long film** (user, 2026-11-01: "the scene must have high demonstration and not stop too long at one scene; we gave a ton of information in one scene and it's not good"). One idea per scene, shown happening; when a second idea starts, start a new scene (a new place, picture or camera move). A scene that carries more than about three facts, or runs past about 40 s on one picture, gets split. This tightens §5c's 20–60 s.
+- **Act it, and keep every scene busy** (user, 2026-11-05, the Toledo War film: "most of the scene just reading the script on the map, too boring"; a 12 s cutaway with two people holding papers "stays too long. Be more creative"). When the voice tells an argument, a vote, an arrest or a refusal, cut to the people doing it (on a real painting or photo of the room where one exists), not to a line and a label on the map. Something changes every 2–3 s inside a scene; sets come back later with a new event (the House, the yard, the convention room). The visual rules are in the Story Map style, §15.
 - **Hand the film on.** Each chapter leaves the viewer one open question that only the next chapter answers; write the handoff table (open question → answer) in `SPINE.md`.
 
 ## 5. The kit: how a long film stays affordable
@@ -166,7 +167,7 @@ User feedback on the first scripts: "you split the resource too small. Two sente
 - **Forward question:** the last line of each chapter, pulling into the next.
 - **Midpoint twist:** the strongest surprise, at 55–65% of the film.
 - **Visual change every 2–3 s**, and a new scene type at every chapter start.
-- **POV:** 1–3 opinion lines ("What gets me is…"), clearly opinion.
+- **POV:** the narrator's dry asides through the film (CHANNEL-RULES §5), clearly opinion, fair to the sources.
 - **Callback ending:** return to the opening image with a new meaning.
 
 ## 7. What makes it cost more (avoid)

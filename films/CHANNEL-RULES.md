@@ -111,10 +111,12 @@ Every Short has a hook, real value (the viewer learns something true and worth k
 
 | Shape | When it fits | Order |
 |---|---|---|
-| **Story** | One event that is itself the value | Hook → what happened → turn → payoff → POV |
-| **Main point + fun fact** | A place or thing worth explaining, with a surprising story attached (Tierra del Fuego + the beavers) | Hook with the fun fact → what the subject is → the fun fact, grown out of it → tie-back + POV |
-| **Fun fact with numbers** | One striking fact that carries itself | The fact → the details and numbers that make it vivid → POV |
-| **Quiz** | Only when the question has a fairly guessable answer (a place, a record, a number) | Question → hints → reveal → POV |
+| **Story** | One event that is itself the value | Hook → what happened → turn → payoff |
+| **Main point + fun fact** | A place or thing worth explaining, with a surprising story attached (Tierra del Fuego + the beavers) | Hook with the fun fact → what the subject is → the fun fact, grown out of it → tie-back |
+| **Fun fact with numbers** | One striking fact that carries itself | The fact → the details and numbers that make it vivid → payoff |
+| **Quiz** | Only when the question has a fairly guessable answer (a place, a record, a number) | Question → hints → reveal |
+
+The point of view runs through every shape in the narrator's asides (§5), not as a last step.
 
 **No "take a guess".** Never ask the viewer to guess in the voice ("Take a guess", "Quick guess", "Where would you put it?"), in any shape (user, 2026-10-31: it isn't good for delivery). A real question can still open a gap ("So where did it go?"); the story answers it straight away, with no pause held for a guess.
 
@@ -127,7 +129,7 @@ Every Short has a hook, real value (the viewer learns something true and worth k
   - **Prefer topics that deliver fast.** When something new can be learned whole in a minute or less, people love it: it costs them little, it's fun, and they want the next one. So when choosing between stories, favour the one a stranger can fully understand quickly; don't take a big story and squeeze it.
   - **About 1:30 is a signal, not a cap** (user, 2026-10-31). A story that needs more than about 1:30 to tell well has potential as a long video (§4, `LONG-FORM.md`): say so to the user and note it in the Hook Bank. Never cut it down to fit.
 - **Hook in the first 3 s**, spoken from frame 1 over a strong, moving image. No title card, no fade from black, no "Did you know…", no "In this video". The first frame's rules: [`FIRST-FRAME.md`](FIRST-FRAME.md).
-- **One point-of-view line** in the narrator's voice. A loop back into the first line only if it comes naturally.
+- **A point of view through the whole Short,** in the narrator's dry asides, not one opinion line bolted on at the end (§5). A loop back into the first line only if it comes naturally.
 - **The look belongs to the style.** `STYLE.md` and the style's demo set the bar for everything visual: composition, characters, motion, camera, type, and how much text is on screen. These rules never add title cards, big captions, stamps or labels on top (user, 2026-10-24: the rules had turned every style into text on flat cards). Build real scenes at the quality of the demo.
 - **Real evidence first; draw only what a still can't tell** (user, 2026-10-31). Show the real thing whenever a commercially usable one exists: a photo of the actual object or place, the document, a demonstration, a real portrait of every named person. If the story is about a sound, play the real sound. Draw and animate only what no single picture shows: a chain of actions, an emotion, a process. Real images sit inside the style's look, never as cards on top. **If real footage or photos exist of the spectacle, the spectacle is real.** The Wagah Short (2026-10-31) drew the high kicks as cartoon soldiers while sharp photos and video of the real kicks existed; the user found the art "weird", and the cut was rebuilt with real material only. Korea worked drawn because no photo shows two flagpoles growing in turn.
 - **Use the style's own engine.** Copy the demo's renderer (print shader, stroke engine, brush engine) into the project and draw with it. Never swap it for a quicker stack (plain SVG, Remotion shapes, flat fills with a texture on top). The Tierra del Fuego "watercolour" and the Argentina Risograph cuts (2026-10-24) became flat vector that way.
@@ -169,7 +171,13 @@ Each chapter opens with a small re-hook. Chapters go in the description.
 
 ## 5. Script rules
 
-- **One fact per sentence,** about 12 words at most. Enthusiastic, informal delivery.
+- **Tell a chain of reasons, not a list of facts** (user, 2026-11-05, after `research/competitor-study-2026-11-05/FINDINGS.md`: "too obvious, no need testing"). Each sentence says why the last thing happened or what it led to, linked with *so, because, since, which, and so, but, well*. Let a sentence run 15–25 words while the thought continues; keep a short one for the punch. History Matters averages about 20 words a sentence (2.3M and 6.9M views); our Korea, Pheasant Island and Toledo scripts averaged 6.5–9.4 under the old "one fact per sentence, 12 words" rule, which read like a telegram and made the TTS sound mechanical.
+  - Ours: "Ohio voted three hundred thousand dollars to enforce its claim. Michigan topped it: three hundred fifteen thousand, for its militia. [HOLD] That summer, a Michigan deputy was stabbed with a penknife in a Toledo tavern. [BEAT] He lived. It was the only blood spilled."
+  - Better: "Ohio set aside a fortune to enforce its claim, so Michigan spent even more on its militia, and after all that, the only blood spilled in the whole 'war' came from one Michigan deputy, stabbed with a penknife in a tavern. He survived."
+- **Attitude in every line, not one opinion at the end.** A dry, amused narrator who has a view of the people in the story: "instead of literally anywhere else on Earth", "Alexander just wanted to be seen as a swell guy", "simpler to agree than to rock the boat over a defeated enemy", "barely even German anymore" (History Matters). The aside sits inside the sentence that tells the fact, and must stay fair to the sources. No set-piece opinion line: "Honestly? …" ended all three of Korea, Pheasant Island and Toledo, a formula viewers notice; never use it again.
+- **Talk about what's on screen.** "If you look at a map…", "here", "this little island", "and it grew to this": the words point at the picture.
+- **Three spoken numbers at most** in a Short, only the ones the story turns on; the rest go on screen or are cut. The 2.3M-view Napoleon Short speaks none; Toledo spoke nine. A number that stays gets a comparison (below).
+- **End on the last action or the real answer**, the way the story ends ("and so off to Elba Napoleon went"). No fixed "would you X, or Y?" question in the voice. Ask the viewer something only when the story leaves a real open question; otherwise the comment question lives in the description and our first comment (§6, §7).
 - **Talk like a person** (user, 2026-10-23). Never number points in the voice or on screen ("Clue one…"). Read every line aloud; if you wouldn't say it to a friend, rewrite it.
 - **Pauses are part of the script** (user, 2026-10-23: "pausing is an art"). Mark them:
   - 0.2–0.3 s between sentences;
@@ -179,6 +187,8 @@ Each chapter opens with a small re-hook. Chapters go in the description.
   Tightened 2026-11-03 (Pheasant Island): at 0.6 / 0.8 s, 11.8 s of a 77 s voice was silence and the user felt it slow; with `am_fenrir` at 1.1 and these pauses the film ran at 189 wpm and was "good now". Aim for about 185–190 wpm overall.
 
   The voice is silent in a pause, but the picture keeps moving and the music carries the gap. Trim words to fit, never the pauses.
+
+  **Mark few of them** (2026-11-05): a `[BEAT]` or `[HOLD]` only at the 3–4 real turns (after the hook, before the reveal, at the end), never after every line. Inside a running thought, Kokoro's own short gaps are the pause. History Matters' median pause is 0.21 s with 2–4% of the film silent; ours were 0.46 s and 11%.
 - **Things happening, not a list.** A chain of actions (someone decides, sails, signs, flies…), with the key number or reveal at a turn, where an action changes.
 - **After the hook, move forward, never back.** The second beat advances what the hook promised. Background slips in inside the action ("When the South's pole hit 100 m in 1982…"), never as a step back into history. The Korea Short kept 68.7% past the swipe, then lost about 40% of viewers between 0:05 and 0:12, exactly over a rhetorical question ("Why would two countries care…?") and "In 1953, the fighting stops at a line." From 0:12 the curve stayed almost flat.
 - **Every fact serves the film's one question.** Cut the good tangent and keep it for another film. Name what was cut.
