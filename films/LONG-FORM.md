@@ -37,8 +37,10 @@ Make a long film only if all three are true:
 | 4b. Material log | `MATERIAL.md`: every beat marked clip / image / drawn, with source, licence and what it really shows (§5b) | 60–90 min | Every clip and image is licence-checked before the animatic. |
 | 4. Script v1 | `SCRIPT.md`, every line tagged with a fact ID, written for the ear (§4b) | 45–60 min | **Count the words with a script; don't estimate.** (*The Promise* v1 was planned at 15 min and counted at 9–10.) Then the read-aloud test: no numbered signposts, no textbook phrasing. |
 | 5. Voice draft | Full TTS read of the script, plus speech check | 15–30 min | Listen once at 1×. Cut anything you'd skip. Voice tools: `core/README.md`. |
+| 5b. Briefs | `BRIEFS.md`: one brief per chapter in the OPUSCAR 98 format (look, palette, light, signature shot, shot list tied to the lines, hand-off, avoid), naming its 2–5 key frames (CHANNEL-RULES §2) | 45–60 min | Written before any drawing (user, 2026-11-06). |
 | 6. Animatic | Still frames on the voice track, timed per line | 30–45 min | The pacing works with stills only. If it drags here, animation won't save it. |
-| 7. Kit | One style; 6–10 reusable scene types (§5) built and checked against `STYLE.md` | 1.5–2.5 h | This is the expensive part, and it's done once. |
+| 7. Kit | One style; 6–10 reusable scene types (§5) built and checked against `STYLE.md` | 1.5–2.5 h | This is the expensive part, and it's done once. For Story Map, start from look v4 (`styles-own/story-map/demo/look-v4/`: jointed people, painted sets, the paint pass, the aged map). |
+| 7b. Key frames | The chapter's 2–5 key frames composed one-off from its brief, checked as stills against the brief and the OPUSCAR 98 frames | 1–2 h per chapter | The key frames are what make a chapter look made rather than assembled. |
 | 8. Chapters | One chapter per session, rendered on its own | 45–90 min each | Each chapter is checked before the next one starts. |
 | 9. Assembly | Concatenate, mix, captions, chapters, thumbnail, Shorts | 1–1.5 h | Quality gate (CHANNEL-RULES §11) plus DIRECTOR.md §11. All effects are recorded sounds from `E:\lemo-sfx` (CHANNEL-RULES §11.11); pick the film's sound kit (whooshes, hits, the story's own objects) once at step 7, next to the scene kit. Music: a palette and tempo per chapter, about 110–130 BPM (CHANNEL-RULES §11.11, "Background music"). |
 
