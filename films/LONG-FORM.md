@@ -1,6 +1,6 @@
 # Long-form films (12–20 min): how to make one from scratch
 
-A companion to `CHANNEL-RULES.md`. Those rules cover Shorts and the 2:30–3:00 landscape cut; this file covers the long film, made without an earlier short film to borrow from. First written 2026-10-23, from planning *The Promise* (`films/the-promise/`).
+A companion to `CHANNEL-RULES.md`. Those rules cover the topic, Shorts and the 2:30–3:00 landscape cut (the topic checks in §0 hold here too); this file covers the long film, made without an earlier short film to borrow from. First written 2026-10-23, from planning *The Promise* (`films/the-promise/`).
 
 **The main lesson:** a long film costs the same as a short one at every stage except animation. So get the cheap stages completely right (spine, facts, script, voice) before drawing anything. Then build a small kit of scene types once and assemble every chapter from it.
 
@@ -12,7 +12,9 @@ Make a long film only if all three are true:
 
 1. **One question carries the whole film.** For example: "Who was 'all men' really for?" or "Why did only two African countries stay free?" If the honest description is "facts about Asia", it's a quiz-round film or Shorts only (CHANNEL-RULES §4).
 2. **The chapters are linked by cause, not by topic.** Each chapter's ending raises the next chapter's question ("…and in Africa, a storm was coming"). If you could shuffle the chapters, there's no spine.
-3. **There are at least 8 wow facts** (CHANNEL-RULES §2 wow test), about one every 90 seconds. Fewer means the film will feel like a lecture.
+3. **There are at least 8 wow facts** (facts a viewer would repeat to a friend), about one every 90 seconds. Fewer means the film will feel like a lecture.
+
+**Why people would want it comes first (user, 2026-10-31).** Pick a long topic for two reasons, written in `SPINE.md`: *why a viewer would like it* (the question it answers, the itch it scratches) and *demand from viewers themselves*, meaning the questions they type into YouTube search (autocomplete with `ds=yt`) and ask in comments. "A competitor did it and it worked" is support at most, never the reason. Copying a competitor's topic is fine if our film answers the viewers' question better. Shorts get almost nothing from search (Korea: 5.7%), but a long film's title is what people search for, so autocomplete counts here. A cluster of questions about one subject ("why is Greenland part of Denmark / so empty / covered in ice / called Greenland") is the strongest sign that people care about the subject. The film still answers **one** of those questions, with the most demand and the best story; the others become Shorts or a line inside it (user, 2026-10-31: "what you gonna say about it? Everything?"). The subject is never the topic; the question is.
 
 **Picking the topic (learned from "How Mexico lost half its land in 30 years", 2026-10-28/29).** These helped; they are pluses, not requirements:
 - **Something to show**: a map that changes (land changing hands, a route) or strong real pictures and scenes. The map is one tool among several, not a must.
@@ -38,7 +40,7 @@ Make a long film only if all three are true:
 | 6. Animatic | Still frames on the voice track, timed per line | 30–45 min | The pacing works with stills only. If it drags here, animation won't save it. |
 | 7. Kit | One style; 6–10 reusable scene types (§5) built and checked against `STYLE.md` | 1.5–2.5 h | This is the expensive part, and it's done once. |
 | 8. Chapters | One chapter per session, rendered on its own | 45–90 min each | Each chapter is checked before the next one starts. |
-| 9. Assembly | Concatenate, mix, captions, chapters, thumbnail, Shorts | 1–1.5 h | Quality gate (CHANNEL-RULES §11) plus DIRECTOR.md §11. |
+| 9. Assembly | Concatenate, mix, captions, chapters, thumbnail, Shorts | 1–1.5 h | Quality gate (CHANNEL-RULES §11) plus DIRECTOR.md §11. All effects are recorded sounds from `E:\lemo-sfx` (CHANNEL-RULES §11.11); pick the film's sound kit (whooshes, hits, the story's own objects) once at step 7, next to the scene kit. Music: a palette and tempo per chapter, about 110–130 BPM (CHANNEL-RULES §11.11, "Background music"). |
 
 **Total for 15 min:** about 10–14 hours, spread over 5–8 sessions. Steps 1–6 (about 4 hours) produce a script, a voice track and an animatic. Those can be judged, and dropped, before any expensive work starts.
 
@@ -51,16 +53,17 @@ Make a long film only if all three are true:
 | 0:55–~8:00 | **Chapters 1–3** | Setup and scale, then the story builds. Each chapter is 1:45–2:30. |
 | ~8:00–9:30 | **Midpoint twist** | At 55–65% of the film, the story turns ("So Liberia is the hero. Right? Not quite."). This is where long videos lose people, so the strongest surprise goes here. |
 | ~9:30–14:00 | **Chapters 4–6** | The deeper "why", the human moments, the open loops paying off one by one. |
-| last 60 s | **Ending** | Return to the opening image, give the answer to the spine question in one line, a POV line, a comment question, a teaser for the next video. |
+| last 60 s | **Ending** | Inside the last chapter, not a chapter of its own: return to the opening image, the answer to the spine question in one line, a POV line, a comment question, a teaser for the next video. **No recap chapter** (user, 2026-11-01, Greenland: "we don't need that, because the whole film has already answered that question"; the 1-min summary chapter 8 was cut and the film ends on chapter 7 plus the comment question). |
 
 **Each chapter is a mini-Short:** a re-hook (a concrete detail in the first sentence, never "Now let's look at…") → 3–5 facts that build → one payoff → a **forward question** that opens the next chapter. A chapter never ends on a summary.
 
 ## 4. Word budget
 
-- The narrator (Kokoro `af_heart`) reads about **145 words a minute**, including short holds.
+- The old narrator (Kokoro `af_heart`) read about **145 words a minute** in long films, including short holds. The narrator since 2026-11-03, `am_fenrir` (CHANNEL-RULES §5), is faster: about 188 wpm on a Short script before holds. Measure the first long-film chapter in Fenrir and update these numbers.
 - 12 min ≈ 1,700 words · 15 min ≈ 2,100 · 20 min ≈ 2,800.
 - Per chapter: about 250–350 words. The hook plus pre-hook is about 100.
-- **If the script comes out short, add a chapter where the story has a real gap**, never pad. In *The Promise* the gap was 1865–1954, when freedom came and was taken back. "Content decides length" (CHANNEL-RULES §3) holds for long films too.
+- **Detail is the value; never trim to hit a length** (user, 2026-10-31: "go as detailed as possible, it brings more value for viewers"). More names, numbers and moments make a long film richer, as long as each one is told as something happening, with a joke or surprise where the facts allow: "not a boring history class". Give every chapter one clearly marked POV line.
+- **If the script comes out short, add a chapter where the story has a real gap**, never pad. In *The Promise* the gap was 1865–1954, when freedom came and was taken back. "Content decides length" (CHANNEL-RULES §2) holds for long films too.
 
 ## 4b. Write for the ear, not the page
 
@@ -99,7 +102,23 @@ User feedback on the first Everest and Caspian scripts: "lack of coherence… th
 - **Listeners can't rewind:** repeat the spine question at the start, and the thesis at the midpoint and at the end (never as a summary in the opening), and give the film a **refrain**, one short phrase that returns three times ("a mountain that won't hold still"; "one word").
 - **Rhythm:** groups of three; short sentences with a longer one now and then; no list longer than three items.
 - **Signpost in words, never in numbers** (§4b still applies: no "first reason / second reason"): "So that's the name. Now the harder question…", "Here's where it gets strange."
-- **The ending is a summary a teacher would give:** the question again, the answer in one sentence with its reasons, then an opinion, then the comment prompt.
+- **The ending lands in a few lines, never a recap:** the question again, the answer in one sentence, an opinion, then the comment prompt, all inside the last chapter. Never retell the chapters in order: the film has already answered the question (user, 2026-11-01, Greenland's cut chapter 8).
+
+## 4d. Every chapter has a purpose, and hands the film on (user, 2026-11-01)
+
+User notes on the Greenland film's chapters 1–2: "Every chapter has to have [a topic sentence] and the chapter and the scene will develop based on it… the purpose: what does this chapter want to tell, what does it want to prove. Not starting with 'Hey, here is my topic sentence', it's too straight. Also I don't see the connection between the chapters." Chapter 1 was "like the biography of Erik… told like a paper to read"; chapter 2 was a list of colony facts with no point.
+
+- **Write each chapter's purpose in `SPINE.md` before any script line:** one sentence saying what the chapter proves, and how it moves the spine question forward (for Greenland, each chapter is one step in how the claim to the island passed from hand to hand). Every scene in the chapter serves that sentence; a fact that doesn't goes.
+- **Never say the purpose as a thesis line.** The viewer should reach it through the events; the chapter's last beat lands it ("…and that is how a promise became a title").
+- **Link by cause:** each chapter ends on the problem the next one solves, and opens from what the last one left. Write both links in `SPINE.md` (question in, question out).
+- **Biography only where it drives the purpose.** A person's backstory earns screen time only if it explains why they act in this chapter (Erik's feuds explain why an outlaw needed new land, not who he killed and in what order).
+- **Film it, don't read it:** tell an event as a scene the viewer watches happen (cause, action, reaction), with the picture doing the work, not a run of short report sentences.
+- **Connected, informative sentences:** no clipped fragments that leave out the what, when or how ("Then they vanish" → "Then, in the 1400s, they vanish from the records, and nobody is sure why"). Link sentences with cause words (so, because, which is why).
+- **One source per number.** Where sources disagree, pick the best and use only it (Greenland: "25 ships", not "25, another says 35"); the debate goes in `FACTS.md`.
+- **A point-of-view joke must be clear on first hearing.** "And the reviews are terrible" (of Erik's "listing") didn't land; say the joke's logic plainly ("Great name. Shame about the ice.").
+- **Show, don't only write it:** a key fact needs something happening on screen (ships, people, a change on the map), not only words over a still map.
+- **Short, busy scenes in a long film** (user, 2026-11-01: "the scene must have high demonstration and not stop too long at one scene; we gave a ton of information in one scene and it's not good"). One idea per scene, shown happening; when a second idea starts, start a new scene (a new place, picture or camera move). A scene that carries more than about three facts, or runs past about 40 s on one picture, gets split. This tightens §5c's 20–60 s.
+- **Hand the film on.** Each chapter leaves the viewer one open question that only the next chapter answers; write the handoff table (open question → answer) in `SPINE.md`.
 
 ## 5. The kit: how a long film stays affordable
 
@@ -163,4 +182,4 @@ User feedback on the first scripts: "you split the resource too small. Two sente
 - YouTube Studio → audience retention. Mark where people drop. A drop at a chapter start means a weak re-hook. A slow slide means the chapter is too long.
 - Compare the drop near the midpoint twist with the drop in the rest of the film.
 - Long films count toward the 4,000 public watch hours the Partner Program needs; Shorts views don't.
-- Harvest 3–4 Shorts per long film, each with its own hook and "Related video" set to the long film.
+- Harvest 3–4 Shorts per long film, each with its own hook and "Related video" set to the long film, **from what the film leaves out, never from what it tells** (CHANNEL-RULES §3, user, 2026-11-02): the cut list, a side story, or the film's question without its answer. A chapter retold as a Short makes the long film a repeat for the viewers it sends there.
